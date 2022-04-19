@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPRO | Audífonos</title>
+
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+
+    <!-- Google Fonts Roboto, Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="imagen-header">
+                <picture>
+                    <source
+                        sizes="1920w"
+                        srcset="img/header.avif 1920w"
+                        type="image/avif">
+                    <source
+                        sizes="1920w"
+                        srcset="img/header.webp 1920w"
+                        type="image/webp">
+                    <source
+                        sizes="1920w"
+                        srcset="img/header.png 1920w"
+                        type="image/jpeg">
+                    <img loading="lazy" decoding="async" src="img/header.png" width="500" lazyalt="imagen" height="300">
+                </picture>
+            </div> <!-- .imagen-header -->
+
+            <div class="texto-header">
+                <p class="tag-line-producto">Sonido Profesional</p>
+                <h1 class="nombre-producto degradado-verde">TechPRO</h1>
+                <p class="descripcion-producto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita quos officiis non sunt ullam excepturi, aspernatur amet dolore quam, et autem. Esse itaque, quod officia nulla cupiditate commodi natus at?</p>
+                <p class="precio-producto">Desde <span>$299</span></p>
+            </div> <!-- .texto-header -->
+        </div> <!-- .contenedor .contenido-header -->
+    </header>
+
+    <main>
+        <section class="contenedor">
+            <div class="cards">
+                <div class="card">
+                    <img src="./img/icono-sonido.svg" alt="sonido">
+                    <h2 class="titulo-card">gran sonido</h2>
+                    <p class="texto-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque cum, blanditiis deleniti voluptas reprehenderit sapiente consequatur molestias explicabo amet dolor optio praesentium ab ipsum officiis, vitae autem debitis accusamus est </p>
+                </div>
+                <div class="card">
+                    <img src="./img/icono-garantia.svg" alt="sonido">
+                    <h2 class="titulo-card">garantía de por vida</h2>
+                    <p class="texto-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque cum, blanditiis deleniti voluptas reprehenderit sapiente consequatur molestias explicabo amet dolor optio praesentium </p>
+                </div>
+                <div class="card">
+                    <img src="./img/icono-bateria.svg" alt="sonido">
+                    <h2 class="titulo-card">+20 horas de batería</h2>
+                    <p class="texto-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque cum, blanditiis deleniti voluptas reprehenderit sapiente consequatur molestias explicabo amet dolor optio praesentium ab ipsum officiis, vitae autem debitis.</p>
+                </div>
+            </div> 
+        </section>
+
+        <section class="sobre-tech">
+            <div class="contenedor sobre-tech-grid">
+                <div class="texto-sobre-tech">
+                    <h3>Sobre los <span>TechPRO</span></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, error ipsa aspernatur beatae, neque doloribus numquam, voluptates consequatur quaerat tempore aliquid! Dolorem corrupti sint rerum corporis nam non, consequatur amet.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contenedor modelos">
+            <h2 class="text-center degradado-verde">Eligre tu TechPRO</h2>
+            <div class="modelos-tech-grid">
+                <div class="modelo modelo-x">
+                    <div>
+                        <h3>TechPRO X</h3>
+                        <p class="precio">$299</p>
+                    </div>
+                </div>
+                
+                <div class="modelo modelo-y">
+                    <div>
+                        <h3>TechPRO Y</h3>
+                        <p class="precio">$399</p>
+                    </div>
+                </div>
+                
+                <div class="modelo modelo-z">
+                    <div>
+                        <h3>TechPRO Z</h3>
+                        <p class="precio">$499</p>
+                    </div>
+                </div>    
+            </div>  <!-- .modelos-tech-grid -->
+        </section>
+
+        <section class="newsletter">
+            <div class="contenedor contenido-newsletter">
+                <div class="texto-newsletter">
+                    <h2>Recibe Actualizaciones</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsa officia? Nam adipisci, possimus tempore animi cumque sit tenetur? Dolore eveniet deserunt vel, quae impedit eligendi distinctio atque aut quos.</p>
+                </div>
+                <formm class="formulario">
+                    <div class="input">
+                        <input type="text" placeholder="Tu Email">
+                    </div>
+                    <input type="submit" value="Inscribirme">
+                </formm>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>todos los derechos reservados @ <span>richardvimo</span></p>
+    </footer>
+
+
+    <script src="js/imagenes.js"></script>
+</body>
+</html>
